@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node Server.js",
-    "build":"npm i"
-
+    "start": "nodemon Server.js",
+    "build": "npm i"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +19,7 @@
     "jsonwebtoken": "^9.0.0",
     "mongodb": "^5.4.0",
     "mongoose": "^7.0.4",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22"
   }
 }
